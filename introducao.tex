@@ -1,0 +1,100 @@
+\section{Introdução}
+
+\subsection {O que é Git?}
+
+Git (http://git-scm.com/) é um software livre de controle de versão
+distribuído com ênfase em velocidade. O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o
+desenvolvimento do núcleo do Linux (kernel).
+
+Cada diretório de trabalho Git é um repositório com todos os históricos e
+habilidade total de controle de revisões, não dependente de acesso a uma rede ou
+a um servidor central.
+
+\subsection {Principais Características}
+
+
+\textbf{Suporte consistente para desenvolvimentos não lineares.}
+
+O Git suporta rápidas criações de ramos (branches) e mesclas (merges) e incluí
+ferramentas específicas para visualização e navegação de históricos de
+desenvolvimento.
+
+\textbf{Desenvolvimento distribuído.}
+
+O git fornece a cada desenvolvedor uma cópia local completa de todo o histórico
+de desenvolvimento e as mudanças são copiadas de um único repositório para
+outro. Estas mudanças são importadas como ramos (branches) adicionais de
+desenvolvimento e podem sofrer mescla (merge) da mesma forma que um ramo de
+desenvolvimento local.
+
+\textbf{Manipulação eficiente de projetos extensos.}
+
+Testes de performance realizados pela Mozilla apontaram que o Git é uma ordem de
+magnitude mais rápido que alguns sistemas de controle de versão. Obter o
+histórico das revisões salvos em repositórios locais resulta ser duas ordens de
+magnitude mais rápido que obtê-los de um servidor remoto. Um detalhe
+interessante é que o Git não fica mais lento com o aumento do histórico do projeto.
+
+\textbf{O lixo se acumula se não for limpo}
+
+Abortar operações ou desfazer mudanças irá deixar objetos sem valor pendentes
+no banco de dados. Existe porém uma pequena fração desejável de objetos no
+sempre crescente histórico, mas liberar o espaço usando git gc --prune pode ser
+uma operação lenta.
+
+\subsection {Hospedagem do código fonte}
+Atualmente existem diversos websites que fazem hospedagem gratuíta de código
+fonte para repositório Git:
+
+\begin{enumerate}
+  \item BerliOS
+  \item GitHub
+  \item Gitorious
+  \item Sourceforge
+  \item GNU Savannah
+  \item Project Kenai
+  \item Unfuddle
+  \item SourceRepo
+  \item Google Code
+\end{enumerate}
+
+\subsection {Projetos que usam Git}
+
+Um grande número de projetos de software de alto-padrão estão utilizando agora o
+Git como controle de revisão:
+
+\begin{enumerate}
+  \item Amarok
+  \item Android
+  \item Arch Linux
+  \item Debian
+  \item Eclipse
+  \item Fedora
+  \item Gnome
+  \item GIMP
+  \item Linux Mint
+  \item VLC
+  \item Yahoo! UI Library
+\end{enumerate}
+
+\subsection{Como instalar o Git}
+
+\textbf{No Windows}
+
+Baixe e instale a versão mais 
+
+recente em:
+
+\url{code.google.com/p/msysgit/downloads/list}
+
+\textbf{No linux}
+No Ubuntu:
+
+Digitar no terminal:
+
+\textit{sudo apt-get install git git-doc git-svn git-gui gitk}
+
+\textbf{Nota:} Nas versões mais antigas do Debian/Ubuntu você vai encontrar
+\textit{git-core} ao invés de \textit{git}
+
+

@@ -1,0 +1,10 @@
+\select@language {brazil}
+\contentsline {section}{\numberline {1}Introdu\c c\~ao}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}O que \'e Git?}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Principais Caracter\IeC {\'\i }sticas}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Hospedagem do c\'odigo fonte}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Projetos que usam Git}{4}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Como instalar o Git}{5}{subsection.1.5}
+\contentsline {section}{\numberline {2}Configurando o Git}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Primeira vez}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Como baixar um reposit\'orio remoto}{6}{subsection.2.2}
